@@ -1,0 +1,30 @@
+{
+  "name": "phenomic_test_stat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "phenomic start",
+    "build": "phenomic build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@phenomic/cli": "^1.0.0-alpha.3",
+    "@phenomic/core": "^1.0.0-alpha.3",
+    "@phenomic/preset-react-app": "^1.0.0-alpha.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^3.0.5"
+  },
+  "phenomic": {
+    "presets": [
+      "@phenomic/preset-react-app"
+    ],
+    "clientScripts": false
+  },
+  "dependencies": {
+    "react-helmet": "^5.1.3"
+  }
+}
